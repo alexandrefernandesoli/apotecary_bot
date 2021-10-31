@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "keywords": ["analgesica"],
+    "name_singular": "Poção analgésica",
+    "name_plural": "Poções analgésicas",
+    "value": 5
+  },
+  {
+    "id": 2,
+    "keywords": ["vida"],
+    "name_singular": "Poção de vida",
+    "name_plural": "Poções de vida",
+    "value": 5
+  },
+  {
+    "id": 3,
+    "keywords": ["mana"],
+    "name_singular": "Poção de mana",
+    "name_plural": "Poções de mana",
+    "value": 5
+  },
+  {
+    "id": 4,
+    "keywords": ["virilidade"],
+    "name_singular": "Poção de virilidade",
+    "name_plural": "Poções de virilidade",
+    "value": 5
+  },
+  {
+    "id": 5,
+    "keywords": ["amor"],
+    "name_singular": "Poção do amor",
+    "name_plural": "Poções do amor",
+    "value": 5
+  },
+  {
+    "id": 6,
+    "keywords": ["sonhos", "sonho"],
+    "name_singular": "Erva dos sonhos",
+    "name_plural": "Ervas dos sonhos",
+    "value": 3
+  },
+  {
+    "id": 7,
+    "keywords": ["fome"],
+    "name_singular": "Erva da fome",
+    "name_plural": "Ervas da fome",
+    "value": 3
+  },
+  {
+    "id": 8,
+    "keywords": ["raiz", "raizes", "mandragora"],
+    "name_singular": "Raíz de mandrágora",
+    "name_plural": "Raízes de mandrágora",
+    "value": 150
+  },
+  {
+    "id": 9,
+    "keywords": ["dente", "dragao"],
+    "name_singular": "Dente de dragão",
+    "name_plural": "Dentes de dragão",
+    "value": 150
+  },
+  {
+    "id": 10,
+    "keywords": ["pena", "fenix"],
+    "name_singular": "Pena de fênix",
+    "name_plural": "Penas de fênix",
+    "value": 150
+  }
+]
