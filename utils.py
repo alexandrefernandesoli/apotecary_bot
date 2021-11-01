@@ -41,8 +41,23 @@ def get_catalog():
   return catalog
 
 def print_catalog():
-
   catalog = get_catalog()
 
+  catalog_string = ''
+
   for item in catalog:
-    print('{}{} - 💲{}'.format(item['name_singular'], item['value']))
+    catalog_string = catalog_string + '{} - ${}\n'.format(item['name_singular'], item['value'])
+
+  return catalog_string
+
+
+def print_order(order):
+  order_string = ''
+
+  for order_item in order:
+    if order_item['quantity'] > 1:
+      order_string = order_string + '{} {}\n'.format(order_item['quantity'], order_item['name_plural'])
+    else:
+      order_string = order_string +  '{} {}\n'.format(order_item['quantity'], order_item['name_singular'])
+
+  return order_string
